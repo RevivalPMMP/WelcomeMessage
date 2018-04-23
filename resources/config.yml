@@ -1,0 +1,16 @@
+---
+# The Large Text
+title: "§l§5Welcome§fMessage"
+
+# The Small Text
+subtitle: "§1My §6Server §c§lRocks!"
+
+# These numbers are in 'ticks'.  Typically, 20 ticks is 1 second.
+
+# How long to wait before sending the title.
+delay: 60
+
+fade-in: 25
+stay: 80
+fade-out: 25
+...

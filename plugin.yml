@@ -1,0 +1,11 @@
+name: WelcomeMessage
+main: RevivalPMMP\WelcomeMessage\WelcomeMessage
+version: 1.0.0
+api:
+- 3.0.0-ALPHA10
+- 3.0.0-ALPHA11
+- 3.0.0-ALPHA12
+load: POSTWORLD
+author: RevivalPMMP, 95CivicSi
+description: A title message to welcome your users.
+website: https://github.com/RevivalPMMP/WelcomeMessage
