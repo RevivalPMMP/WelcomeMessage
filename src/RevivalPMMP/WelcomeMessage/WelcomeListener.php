@@ -22,6 +22,6 @@ class WelcomeListener implements Listener {
 
 	public function playerJoin(PlayerJoinEvent $event){
 		$player = $event->getPlayer();
-		$this->plugin->getServer()->getScheduler()->scheduleDelayedTask(new BroadcastTitle($player), $this->delay);
+		$this->plugin->getScheduler()->scheduleDelayedTask(new BroadcastTitle($player), $this->delay);
 	}
 }
